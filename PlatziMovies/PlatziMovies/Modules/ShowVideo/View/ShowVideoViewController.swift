@@ -15,6 +15,7 @@ class ShowVideoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = Colors().platziBackground
         
         self.navigationController?.navigationBar.isHidden = false
         self.showVideoView.translatesAutoresizingMaskIntoConstraints = false
