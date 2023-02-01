@@ -9,6 +9,10 @@ https://www.themoviedb.org/ <br />
 # Cocoapods
 No external libraries were used, so it was not necessary to use Cocoapods or any other dependency handler.<br/>
 
+# Xcode
+Xcode version used: <b>14.0</b> <br/>
 
+# Swift
+Swift version: <b>5.x</b>
 
 
