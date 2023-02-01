@@ -17,6 +17,7 @@ class DetailMovieViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = Colors().platziBackground
         self.navigationController?.navigationBar.isHidden = false
         
         self.detailView = DetailMoviewView(imgPath: self.imgPath, detailText: self.detailText)
